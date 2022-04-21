@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+/* external fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Cardo');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+
+/* color pallate selected with coolors web app */
+
+/* high level selectors */
+
+body {
+  background-color: #403F4C;
+}
+
+header {
+  background-color: #F3B61F;
+  height: 105px;
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  margin: 0px;
+  padding: 20px 0px 0px 0px;
+}
+
+footer p {
+  font-size: 11px;
+}
+
+/*  */
+
+h1 {
+  font-family: Nunito, sans-serif;
+  font-size: 45px;
+  color: #403F4C;
+  margin: 0px;
+  padding: 5px;
+}
+
+header h2 {
+  font-family: Cardo, serif;
+  font-size: 25px;
+  color: #403F4C;
+  margin: 0px;
+}
+
+h3 {
+  font-family: Cardo, serif;
+  font-size: 20px;
+  color: #F3B61F;
+}
+
+p, li {
+  font-family: Nunito, sans-serif;
+  font-size: 17px;
+  color: #D8D4F2;
+}
+
+hr {
+  width: 75%;
+  align: center;
+  color: #C7F0BD;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* anchor and image handling--------------------------------------------------------------------- */
+
+a {
+  font-family: Nunito, sans-serif;
+  font-size: 20px;
+}
+
+a:link {color: #C7F0BD;}
+a:visited {color: #FF785A;}
+a:hover {color: #ffffff;}
+a:active {color: #F3B61F;}
+
+img {
+  width: 300px;
+}
+
+.img-shaping {
+  border-radius: 50px;
+}
